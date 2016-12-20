@@ -3,7 +3,7 @@
 namespace ExA2040\LaravelSEO;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
-class ViewCounterServiceProvider extends LaravelServiceProvider {
+class SeoServiceProvider extends LaravelServiceProvider {
 
   use \Illuminate\Console\AppNamespaceDetectorTrait;
 
@@ -31,8 +31,7 @@ class ViewCounterServiceProvider extends LaravelServiceProvider {
    */
   public function register()
   {
-    //include __DIR__.'/Http/routes.php';
-    //$this->app->make('ExA2040\LaravelViewCounter\LikeController');
+    
   }
 
   /**

@@ -3,9 +3,9 @@
 namespace ExA2040\LaravelSEO;
 use Illuminate\Database\Eloquent\Model;
 
-class Counter extends Model {
+class Seo extends Model {
 
-  protected $table = 'counters';
+  protected $table = 'seos';
   protected $fillable = array('class_name', 'object_id');
 
 }

@@ -19,8 +19,9 @@ class CreateCounterTable extends Migration {
 
       $table->integer('object_id');
 
-      $table->integer('view_counter');
-      $table->integer('like_counter');
+      $table->string('title')->nullable();
+      $table->string('description')->nullable();
+      $table->string('tags')->nullable();
       
       $table->index('class_name');
       $table->index('object_id');
@@ -36,7 +37,7 @@ class CreateCounterTable extends Migration {
    */
   public function down()
   {
-    Schema::drop('counter');
+    Schema::drop('seos');
   }
 
 }
