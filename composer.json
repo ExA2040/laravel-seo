@@ -1,6 +1,6 @@
 {
   "name": "exa2040/laravel-seo",
-  "description": "A view and like counter extension for your laravel project.",
+  "description": "A SEO extension for your laravel project.",
   "license": "MIT",
   "homepage": "https://github.com/ExA2040/LaravelSEO",
   "keywords": [ "seo" ],
