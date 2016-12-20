@@ -47,6 +47,6 @@ class SeoServiceProvider extends LaravelServiceProvider {
   private function handleMigrations() {
     $this->publishes([
       realpath(__DIR__.'/migrations') => $this->app->databasePath().'/migrations',
-    ]);
+    ], 'migrations');
   }
 }
