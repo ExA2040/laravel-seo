@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCounterTable extends Migration {
+class CreateSEOTable extends Migration {
 
   /**
    * Run the migrations.
