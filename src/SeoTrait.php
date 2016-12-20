@@ -6,7 +6,7 @@ trait SeoTrait {
   
   public function seo()
   {
-    return $this->hasOne('\ExA2040\LaravelViewCounter\Counter', 'object_id')->where('class_name', snake_case(get_class($this)));
+    return $this->hasOne('\ExA2040\LaravelSEO\Seo', 'object_id')->where('class_name', snake_case(get_class($this)));
   }
 
   public function get_seo()
